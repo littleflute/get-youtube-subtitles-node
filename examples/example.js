@@ -2,7 +2,7 @@
 var getYoutubeSubtitles = require('./../index.js');
 
 // let id = 'vKosBJ1Uko0'
-let id = 'q_q61B-DyPk'
+let id = 'v8vYfP6OM6E'
 // let id = '_WkM8K_G4lM'
 // let id = '3gilXX1vmlA'
 // let id = 'wHkK6mbFUTk'
@@ -65,7 +65,7 @@ let id = 'q_q61B-DyPk'
 //   // console.log(err)
 // })
 
-getYoutubeSubtitles(id, {type: 'auto'})
+getYoutubeSubtitles(id, {type: 'either'})
 .then(nonAutoSubtitles => {
   // console.log(nonAutoSubtitles[2])
   let hasTime = 0;
